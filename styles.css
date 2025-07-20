@@ -1,10 +1,17 @@
+/* Root Element */
+
+:root {
+    --dark: #313131;
+    --plum: tomato;
+}
+
 /* Form Section */
 body {
     background-color: #659f8f;
 }
 
 p {
-    color: black;
+    color: var(--dark);
     font-size: 2em;
 }
 
@@ -19,7 +26,7 @@ p {
 
 .button {
   border: none;
-  background-color: tomato;
+  background-color: var(--plum);
   color: white;
   padding: 1em 0.9em;
   text-align: center;
@@ -36,7 +43,7 @@ p {
 .heading {
     font-size: 1em;
     text-align: left;
-    color: #313131;
+    color: var(--dark);
 }
 
 #heading1 {
@@ -54,5 +61,5 @@ p {
     grid-template-rows: repeat(4, 1fr);
     background-color: #659f8f;
     padding: 10px;
-    border-bottom: 2px solid tomato;
+    border-bottom: 2px solid var(--plum);
 }
