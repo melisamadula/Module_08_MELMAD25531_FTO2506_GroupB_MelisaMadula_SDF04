@@ -30,3 +30,29 @@ p {
   cursor: pointer;
   border-radius: 8px;
 }
+
+/* Page Navigation Section */
+
+.heading {
+    font-size: 1em;
+    text-align: left;
+    color: #313131;
+}
+
+#heading1 {
+    text-align: left;
+}
+
+#heading2 {
+    text-align: left;
+}
+
+.container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #659f8f;
+    padding: 10px;
+    border-bottom: 2px solid tomato;
+}

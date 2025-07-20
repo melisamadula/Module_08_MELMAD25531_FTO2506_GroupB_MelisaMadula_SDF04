@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Footer</title>
-</head>
-<body>
-    <p>Subscribe to our newsletter for updates.</p>
-    <input type="email" id="myEmail" placeholder="Email Address">
-    <button type="button" class="button">Subscribe</button>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
-        <div class="container px-6 py-12 mx-auto">
-            <div class="flex">
-                <a href="#">
-                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
-                </a>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Footer</title>
+    </head>
+    <body>
+        <div class="container">
+            <p>Subscribe to our newsletter for updates.</p>
+            <input type="email" id="myEmail" placeholder="Email Address">
+            <button type="button" class="button">Subscribe</button>
+            <nav>
+                <h1 class="heading" id="heading1">Quick Link</h1>
+                    <ul style="list-style-type:none;">
+                        <li>Home</li>
+                        <li>Who We Are</li>
+                        <li>Our Philosophy</li>
+                    </ul>
+                <h1 class="heading" id="heading2">Technologies</h1>
+                    <ul style="list-style-type:none;">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+            </nav>
         </div>
-    </footer>
-</body>
+        <footer class="bg-[#659f8f] dark:bg-[#313131]">
+            <div class="container px-6 py-12 mx-auto">
+                <div class="flex">
+                    <a href="#">
+                        <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
