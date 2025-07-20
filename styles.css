@@ -1,0 +1,32 @@
+/* Form Section */
+body {
+    background-color: #659f8f;
+}
+
+p {
+    color: black;
+    font-size: 2em;
+}
+
+#myEmail {
+    border: none;
+    padding: 1em 1.5em;
+    text-align: left;
+    font-size: 1em;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+.button {
+  border: none;
+  background-color: tomato;
+  color: white;
+  padding: 1em 0.9em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
